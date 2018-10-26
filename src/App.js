@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './style/reset.less'
-import Admin from './admin'
+import Router from "./router";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Admin></Admin>
+      <Router></Router>
       </div>
     );
   }
